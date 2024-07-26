@@ -1,0 +1,65 @@
+.App {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .centered-text-container {
+    text-align: center;
+    transform: translateY(-20%);
+  }
+  
+  .centered-text {
+    color: white;
+    font-size: 50px;
+    font-weight: 700; /* Bold font */
+  }
+  
+  .sub-text {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400; /* Regular font */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0073b1; /* Default color for LinkedIn button */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: 700; /* Bold font */
+  }
+  
+  .button:hover {
+    background-color: #005582; /* Darker LinkedIn blue color on hover */
+  }
+  
+  .button:first-child {
+    background-color: gray; /* Different color for Resume button */
+  }
+  
+  .button:first-child:hover {
+    background-color: darkgray; /* Darker gray on hover */
+  }
+  
+  .button:nth-child(3) {
+    background-color: black; /* GitHub button color */
+    border: 1px solid white;
+  }
+  
+  .button:nth-child(3):hover {
+    background-color: #333; /* Darker black on hover */
+  }
+  

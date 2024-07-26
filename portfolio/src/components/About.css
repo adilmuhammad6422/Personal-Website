@@ -1,0 +1,25 @@
+.App {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .about-container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .about-container h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+  .about-container p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
